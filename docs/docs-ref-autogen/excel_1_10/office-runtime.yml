@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-runtime!
+    name: office-runtime
+    fullName: office-runtime
+    langs:
+      - typeScript
+    type: package
+    children:
+      - 'office-runtime!OfficeRuntime:namespace'
+references:
+  - uid: 'office-runtime!OfficeRuntime:namespace'
+    name: OfficeRuntime

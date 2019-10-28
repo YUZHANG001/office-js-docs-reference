@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: excel!
+    name: excel
+    fullName: excel
+    langs:
+      - typeScript
+    type: package
+    children:
+      - 'excel!Excel:namespace'
+      - 'excel!Excel.Interfaces:namespace'
+references:
+  - uid: 'excel!Excel:namespace'
+    name: Excel
+  - uid: 'excel!Excel.Interfaces:namespace'
+    name: Excel.Interfaces

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: custom-functions-runtime!
+    name: custom-functions-runtime
+    fullName: custom-functions-runtime
+    langs:
+      - typeScript
+    type: package
+    children:
+      - 'custom-functions-runtime!CustomFunctions:namespace'
+references:
+  - uid: 'custom-functions-runtime!CustomFunctions:namespace'
+    name: CustomFunctions

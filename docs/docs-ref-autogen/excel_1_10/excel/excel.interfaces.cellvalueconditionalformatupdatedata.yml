@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: 'excel!Excel.Interfaces.CellValueConditionalFormatUpdateData:interface'
+    summary: >-
+      An interface for updating data on the CellValueConditionalFormat object, for use in
+      `cellValueConditionalFormat.set({ ... })`<!-- -->.
+    name: CellValueConditionalFormatUpdateData
+    fullName: Excel.Interfaces.CellValueConditionalFormatUpdateData
+    langs:
+      - typeScript
+    namespace: 'excel!Excel.Interfaces:namespace'
+    type: interface
+    package: excel!
+    children:
+      - 'excel!Excel.Interfaces.CellValueConditionalFormatUpdateData#format:member'
+      - 'excel!Excel.Interfaces.CellValueConditionalFormatUpdateData#rule:member'
+  - uid: 'excel!Excel.Interfaces.CellValueConditionalFormatUpdateData#format:member'
+    summary: |-
+      Returns a format object, encapsulating the conditional formats font, fill, borders, and other properties.
+
+      \[ [API set: ExcelApi 1.6](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
+    name: format
+    fullName: format
+    langs:
+      - typeScript
+    type: property
+    syntax:
+      content: 'format?: Excel.Interfaces.ConditionalRangeFormatUpdateData;'
+      return:
+        type:
+          - 'excel!Excel.Interfaces.ConditionalRangeFormatUpdateData:interface'
+  - uid: 'excel!Excel.Interfaces.CellValueConditionalFormatUpdateData#rule:member'
+    summary: |-
+      Represents the Rule object on this conditional format.
+
+      \[ [API set: ExcelApi 1.6](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
+    name: rule
+    fullName: rule
+    langs:
+      - typeScript
+    type: property
+    syntax:
+      content: 'rule?: Excel.ConditionalCellValueRule;'
+      return:
+        type:
+          - 'excel!Excel.ConditionalCellValueRule:interface'
+references:
+  - uid: 'excel!Excel.Interfaces.ConditionalRangeFormatUpdateData:interface'
+    name: ConditionalRangeFormatUpdateData
+    fullName: Excel.Interfaces.ConditionalRangeFormatUpdateData
+  - uid: 'excel!Excel.ConditionalCellValueRule:interface'
+    name: ConditionalCellValueRule
+    fullName: Excel.ConditionalCellValueRule
