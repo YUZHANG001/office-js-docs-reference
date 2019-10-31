@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "@microsoft/api-documenter": "https://github.com/microsoft/rushstack/files/3786226/microsoft-api-documenter-7.4.6.tar.gz",
-    "@microsoft/api-extractor": "^7.5.2"
+    "@microsoft/api-extractor": "https://github.com/microsoft/rushstack/files/3786590/microsoft-api-extractor-7.4.4.tar.gz",
+    "@microsoft/api-extractor-model": "https://github.com/microsoft/rushstack/files/3786589/microsoft-api-extractor-model-7.4.2.tar.gz"
   }
 }
