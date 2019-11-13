@@ -87,9 +87,9 @@ items:
 
       - Strings containing SMTP email addresses
 
-      - [Office.EmailUser](xref:outlook!Office.EmailUser:interface) objects
+      - [EmailUser](xref:outlook!Office.EmailUser:interface) objects
 
-      - [Office.EmailAddressDetails](xref:outlook!Office.EmailAddressDetails:interface) objects
+      - [EmailAddressDetails](xref:outlook!Office.EmailAddressDetails:interface) objects
 
       \[ [API set: Mailbox 1.1](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
     remarks: >-
@@ -168,7 +168,7 @@ items:
 
 
       When the call completes, the asyncResult.value property will contain an array of
-      [Office.EmailAddressDetails](xref:outlook!Office.EmailAddressDetails:interface) objects.
+      [EmailAddressDetails](xref:outlook!Office.EmailAddressDetails:interface) objects.
 
 
       \[ [API set: Mailbox 1.1](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
@@ -210,7 +210,7 @@ items:
 
 
       When the call completes, the asyncResult.value property will contain an array of
-      [Office.EmailAddressDetails](xref:outlook!Office.EmailAddressDetails:interface) objects.
+      [EmailAddressDetails](xref:outlook!Office.EmailAddressDetails:interface) objects.
 
 
       \[ [API set: Mailbox 1.1](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
@@ -270,9 +270,9 @@ items:
 
       - Strings containing SMTP email addresses
 
-      - [Office.EmailUser](xref:outlook!Office.EmailUser:interface) objects
+      - [EmailUser](xref:outlook!Office.EmailUser:interface) objects
 
-      - [Office.EmailAddressDetails](xref:outlook!Office.EmailAddressDetails:interface) objects
+      - [EmailAddressDetails](xref:outlook!Office.EmailAddressDetails:interface) objects
 
       \[ [API set: Mailbox 1.1](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
     remarks: >-
@@ -329,9 +329,9 @@ items:
 
       - Strings containing SMTP email addresses
 
-      - [Office.EmailUser](xref:outlook!Office.EmailUser:interface) objects
+      - [EmailUser](xref:outlook!Office.EmailUser:interface) objects
 
-      - [Office.EmailAddressDetails](xref:outlook!Office.EmailAddressDetails:interface) objects
+      - [EmailAddressDetails](xref:outlook!Office.EmailAddressDetails:interface) objects
 
       \[ [API set: Mailbox 1.1](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
     remarks: >-

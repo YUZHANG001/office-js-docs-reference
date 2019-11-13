@@ -12,6 +12,7 @@ items:
       - 'outlook!Office.AppointmentCompose:interface'
       - 'outlook!Office.AppointmentForm:interface'
       - 'outlook!Office.AppointmentRead:interface'
+      - 'outlook!Office.AppointmentTimeChangedEventArgs:interface'
       - 'outlook!Office.AttachmentDetails:interface'
       - 'outlook!Office.Body:interface'
       - 'outlook!Office.CoercionTypeOptions:interface'
@@ -65,6 +66,9 @@ references:
   - uid: 'outlook!Office.AppointmentRead:interface'
     name: AppointmentRead
     fullName: Office.AppointmentRead
+  - uid: 'outlook!Office.AppointmentTimeChangedEventArgs:interface'
+    name: AppointmentTimeChangedEventArgs
+    fullName: Office.AppointmentTimeChangedEventArgs
   - uid: 'outlook!Office.AttachmentDetails:interface'
     name: AttachmentDetails
     fullName: Office.AttachmentDetails

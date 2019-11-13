@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: outlook!
+    name: outlook
+    fullName: outlook
+    langs:
+      - typeScript
+    type: package
+    children:
+      - 'outlook!Office:namespace'
+      - 'outlook!Office.MailboxEnums:namespace'
+references:
+  - uid: 'outlook!Office:namespace'
+    name: Office
+  - uid: 'outlook!Office.MailboxEnums:namespace'
+    name: Office.MailboxEnums

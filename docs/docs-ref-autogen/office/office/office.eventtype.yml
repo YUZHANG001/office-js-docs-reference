@@ -68,8 +68,7 @@ items:
 
       The event handler receives an argument of type `Office.AttachmentsChangedEventArgs`<!-- -->.
 
-      \[ [API set: Mailbox Preview](/office/dev/add-ins/reference/javascript-api-for-office) \]
-    isPreview: true
+      \[ [API set: Mailbox 1.8](/office/dev/add-ins/reference/javascript-api-for-office) \]
     name: AttachmentsChanged
     fullName: AttachmentsChanged
     langs:
@@ -126,8 +125,7 @@ items:
 
       The event handler receives an argument of type `Office.EnhancedLocationsChangedEventArgs`<!-- -->.
 
-      \[ [API set: Mailbox Preview](/office/dev/add-ins/reference/javascript-api-for-office) \]
-    isPreview: true
+      \[ [API set: Mailbox 1.8](/office/dev/add-ins/reference/javascript-api-for-office) \]
     name: EnhancedLocationsChanged
     fullName: EnhancedLocationsChanged
     langs:

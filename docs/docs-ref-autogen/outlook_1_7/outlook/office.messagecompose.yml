@@ -248,13 +248,10 @@ items:
           type:
             - 'outlook!Office.MessageCompose#addFileAttachmentAsync~2:complex'
   - uid: 'outlook!Office.MessageCompose#addHandlerAsync:member(1)'
-    summary: >-
+    summary: |-
       Adds an event handler for a supported event. **Note**: Events are available only with task pane.
 
-
-      Currently the supported event types are `Office.EventType.AppointmentTimeChanged`<!-- -->,
-      `Office.EventType.RecipientsChanged`<!-- -->, and `Office.EventType.RecurrenceChanged`<!-- -->.
-
+      To see which event types are supported, see `Office.EventType` for details.
 
       \[ [API set: Mailbox 1.7](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
     remarks: >-
@@ -301,13 +298,10 @@ items:
           type:
             - 'outlook!Office.MessageCompose#addHandlerAsync~1:complex'
   - uid: 'outlook!Office.MessageCompose#addHandlerAsync:member(2)'
-    summary: >-
+    summary: |-
       Adds an event handler for a supported event. **Note**: Events are available only with task pane.
 
-
-      Currently the supported event types are `Office.EventType.AppointmentTimeChanged`<!-- -->,
-      `Office.EventType.RecipientsChanged`<!-- -->, and `Office.EventType.RecurrenceChanged`<!-- -->.
-
+      To see which event types are supported, see `Office.EventType` for details.
 
       \[ [API set: Mailbox 1.7](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
     remarks: >-
@@ -622,9 +616,9 @@ items:
       the mode of the current item.
 
 
-      The cc property returns an [Office.Recipients](xref:outlook!Office.Recipients:interface) object that provides
-      methods to get or update the recipients on the Cc line of the message. By default, the collection is limited to a
-      maximum of 100 members. However, on Windows and Mac, the following limits apply.
+      The cc property returns a [Recipients](xref:outlook!Office.Recipients:interface) object that provides methods to
+      get or update the recipients on the Cc line of the message. By default, the collection is limited to a maximum of
+      100 members. However, on Windows and Mac, the following limits apply.
 
 
       - Get 500 members maximum.
@@ -799,12 +793,17 @@ items:
       Asynchronously returns selected data from the subject or body of a message.
 
 
-      If there is no selection but the cursor is in the body or subject, the method returns null for the selected data.
-      If a field other than the body or subject is selected, the method returns the InvalidSelection error.
+      If there is no selection but the cursor is in the body or subject, the method returns an empty string for the
+      selected data. If a field other than the body or subject is selected, the method returns the InvalidSelection
+      error.
 
 
       To access the selected data from the callback method, call asyncResult.value.data. To access the source property
       that the selection comes from, call asyncResult.value.sourceProperty, which will be either body or subject.
+
+
+      **Note**: In Outlook on the web, the method returns the string "null" if no text is selected but the cursor is in
+      the body.
 
 
       \[ [API set: Mailbox 1.2](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
@@ -833,12 +832,13 @@ items:
           var text = asyncResult.value.data;
           var prop = asyncResult.value.sourceProperty;
 
-          Office.context.mailbox.item.setSelectedDataAsync('Setting ' + prop + ': ' + text, {}, setCallback);
-      }
+          // Handle where Outlook on the web erroneously returns "null" instead of empty string.
+          if (Office.context.mailbox.diagnostics.hostName === 'OutlookWebApp'
+              && asyncResult.value.endPosition === asyncResult.value.startPosition) {
+              text = "";
+          }
 
-
-      function setCallback(asyncResult) {
-          // Check for errors.
+          console.log("Selected text in " + prop + ": " + text);
       }
 
       ```
@@ -879,12 +879,17 @@ items:
       Asynchronously returns selected data from the subject or body of a message.
 
 
-      If there is no selection but the cursor is in the body or subject, the method returns null for the selected data.
-      If a field other than the body or subject is selected, the method returns the InvalidSelection error.
+      If there is no selection but the cursor is in the body or subject, the method returns an empty string for the
+      selected data. If a field other than the body or subject is selected, the method returns the InvalidSelection
+      error.
 
 
       To access the selected data from the callback method, call asyncResult.value.data. To access the source property
       that the selection comes from, call asyncResult.value.sourceProperty, which will be either body or subject.
+
+
+      **Note**: In Outlook on the web, the method returns the string "null" if no text is selected but the cursor is in
+      the body.
 
 
       \[ [API set: Mailbox 1.2](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
@@ -1180,13 +1185,10 @@ items:
           type:
             - 'outlook!Office.MessageCompose#removeAttachmentAsync~1:complex'
   - uid: 'outlook!Office.MessageCompose#removeHandlerAsync:member(1)'
-    summary: >-
+    summary: |-
       Removes the event handlers for a supported event type. **Note**: Events are available only with task pane.
 
-
-      Currently the supported event types are `Office.EventType.AppointmentTimeChanged`<!-- -->,
-      `Office.EventType.RecipientsChanged`<!-- -->, and `Office.EventType.RecurrenceChanged`<!-- -->.
-
+      To see which event types are supported, see `Office.EventType` for details.
 
       \[ [API set: Mailbox 1.7](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
     remarks: >-
@@ -1227,13 +1229,10 @@ items:
           type:
             - 'outlook!Office.MessageCompose#removeHandlerAsync~1:complex'
   - uid: 'outlook!Office.MessageCompose#removeHandlerAsync:member(2)'
-    summary: >-
+    summary: |-
       Removes the event handlers for a supported event type. **Note**: Events are available only with task pane.
 
-
-      Currently the supported event types are `Office.EventType.AppointmentTimeChanged`<!-- -->,
-      `Office.EventType.RecipientsChanged`<!-- -->, and `Office.EventType.RecurrenceChanged`<!-- -->.
-
+      To see which event types are supported, see `Office.EventType` for details.
 
       \[ [API set: Mailbox 1.7](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
     remarks: >-
