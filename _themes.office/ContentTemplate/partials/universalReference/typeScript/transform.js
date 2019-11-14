@@ -310,6 +310,7 @@ function updateModel(model) {
 		}
 	}
 
+	model.inheritanceJson = JSON.stringify(model.inheritance);
 	if (model.inheritance && model.inheritance[0] && model.inheritance[0].value) {
 		model.extendsRef = null;
 		model.extends = null;
@@ -332,6 +333,7 @@ function updateModel(model) {
 		}
 	}
 
+	model.packageJson = JSON.stringify(model.package);
 	model.packageRef = null;
 	if (isLanguageValuePairs(model.package)) {
 		model.packageRef = normalizeLanguageValuePairs(model.package).specName[0].value;

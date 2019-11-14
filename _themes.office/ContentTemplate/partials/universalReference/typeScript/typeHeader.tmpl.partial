@@ -27,6 +27,8 @@
 	</dl>
 {{/inheritance.0}}
 
+<!-- {{{inheritanceJson}}} -->
+
 {{#implements.0}}
 	<dl class="attributeList stack">
 		<dt>{{__global.implements}}</dt><dd>
