@@ -310,7 +310,6 @@ function updateModel(model) {
 		}
 	}
 
-	model.inheritanceJson = JSON.stringify(model.inheritance);
 	if (model.inheritance && model.inheritance[0] && model.inheritance[0].value) {
 		model.extendsRef = null;
 		model.extends = null;
@@ -333,7 +332,6 @@ function updateModel(model) {
 		}
 	}
 
-	model.packageJson = JSON.stringify(model.package);
 	model.packageRef = null;
 	if (isLanguageValuePairs(model.package)) {
 		model.packageRef = normalizeLanguageValuePairs(model.package).specName[0].value;
@@ -383,7 +381,7 @@ function updateParameters(model, m) {
 
 function isLanguageValuePairs(value) {
 	return Array.isArray(value)
-		&& value.length > 1
+		&& value.length > 0
 		&& !!value[0]
 		&& !!value[0].lang
 		&& !!value[0].value;

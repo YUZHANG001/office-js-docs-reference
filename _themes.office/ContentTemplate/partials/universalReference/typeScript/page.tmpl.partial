@@ -15,9 +15,6 @@
 				<dd>{{{packageRef}}}</dd>
 			</dl>
 		{{/package}}
-		<!-- {{{packageJson}}} -->
-		<!-- {{{package}}} -->
-		<!-- {{{packageRef}}} -->
 
 		{{#module}}
 			<dl class="attributeList">
