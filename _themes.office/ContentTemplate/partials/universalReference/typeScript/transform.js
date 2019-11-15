@@ -400,6 +400,10 @@ function updateInheritance(tree) {
 		tree.inheritance = null;
 	}
 	else {
+		// TODO: docs.ms.com doesn't yet have css to handle multiple inheritance for TS interfaces, so for now limit inheritance to the first entry.
+		if (tree.inheritance.length > 1) {
+			tree.inheritance.length = 1;
+		}
 		tree.inheritance.forEach(updateInheritance);
 	}
 }
