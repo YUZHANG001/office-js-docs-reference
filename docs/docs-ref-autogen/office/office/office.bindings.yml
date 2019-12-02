@@ -2,10 +2,11 @@
 items:
   - uid: 'office!Office.Bindings:interface'
     summary: Represents the bindings the add-in has within the document.
-    name: Office.Bindings
+    name: Bindings
     fullName: Office.Bindings
     langs:
       - typeScript
+    namespace: 'office!Office:namespace'
     type: interface
     package: office!
     children:

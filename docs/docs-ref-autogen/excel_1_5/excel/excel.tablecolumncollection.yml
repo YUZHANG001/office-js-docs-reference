@@ -5,10 +5,11 @@ items:
       Represents a collection of all the columns that are part of the table.
 
       \[ [API set: ExcelApi 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.TableColumnCollection
+    name: TableColumnCollection
     fullName: Excel.TableColumnCollection
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

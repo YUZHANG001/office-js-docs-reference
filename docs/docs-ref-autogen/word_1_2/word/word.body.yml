@@ -5,10 +5,11 @@ items:
       Represents the body of a document or a section.
 
       \[ [API set: WordApi 1.1](/office/dev/add-ins/reference/requirement-sets/word-api-requirement-sets) \]
-    name: Word.Body
+    name: Body
     fullName: Word.Body
     langs:
       - typeScript
+    namespace: 'word!Word:namespace'
     type: class
     extends:
       - 'word!OfficeExtension.ClientObject:class'

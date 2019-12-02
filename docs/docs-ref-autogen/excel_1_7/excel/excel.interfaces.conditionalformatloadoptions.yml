@@ -8,10 +8,11 @@ items:
 
 
       \[ [API set: ExcelApi 1.6](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.Interfaces.ConditionalFormatLoadOptions
+    name: ConditionalFormatLoadOptions
     fullName: Excel.Interfaces.ConditionalFormatLoadOptions
     langs:
       - typeScript
+    namespace: 'excel!Excel.Interfaces:namespace'
     type: interface
     package: excel!
     children:

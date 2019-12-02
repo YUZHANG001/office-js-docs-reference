@@ -3,10 +3,11 @@ items:
   - uid: 'office!Office.Document:interface'
     summary: An abstract class that represents the document the add-in is interacting with.
     remarks: '**Hosts**: Excel, PowerPoint, Project, Word'
-    name: Office.Document
+    name: Document
     fullName: Office.Document
     langs:
       - typeScript
+    namespace: 'office!Office:namespace'
     type: interface
     package: office!
     children:

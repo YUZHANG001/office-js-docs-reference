@@ -5,10 +5,11 @@ items:
       Represents workbook properties.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.DocumentProperties
+    name: DocumentProperties
     fullName: Excel.DocumentProperties
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

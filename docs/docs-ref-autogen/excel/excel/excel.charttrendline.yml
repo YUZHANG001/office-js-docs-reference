@@ -5,10 +5,11 @@ items:
       This object represents the attributes for a chart trendline object.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.ChartTrendline
+    name: ChartTrendline
     fullName: Excel.ChartTrendline
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

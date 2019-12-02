@@ -2,10 +2,11 @@
 items:
   - uid: 'visio!Visio.Interfaces.PageUpdateData:interface'
     summary: 'An interface for updating data on the Page object, for use in "page.set(<!-- -->{ ... }<!-- -->)".'
-    name: Visio.Interfaces.PageUpdateData
+    name: PageUpdateData
     fullName: Visio.Interfaces.PageUpdateData
     langs:
       - typeScript
+    namespace: 'visio!Visio.Interfaces:namespace'
     type: interface
     package: visio!
     children:

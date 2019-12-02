@@ -5,10 +5,11 @@ items:
       Represents the filtering criteria applied to a column.
 
       \[ [API set: ExcelApi 1.2](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.FilterCriteria
+    name: FilterCriteria
     fullName: Excel.FilterCriteria
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: interface
     package: excel!
     children:

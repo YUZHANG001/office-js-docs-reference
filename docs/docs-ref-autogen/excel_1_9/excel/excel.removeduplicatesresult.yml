@@ -5,10 +5,11 @@ items:
       Represents the results from the removeDuplicates method on range
 
       \[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.RemoveDuplicatesResult
+    name: RemoveDuplicatesResult
     fullName: Excel.RemoveDuplicatesResult
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

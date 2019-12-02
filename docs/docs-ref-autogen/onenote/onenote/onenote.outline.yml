@@ -5,10 +5,11 @@ items:
       Represents a container for Paragraph objects.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: OneNote.Outline
+    name: Outline
     fullName: OneNote.Outline
     langs:
       - typeScript
+    namespace: 'onenote!OneNote:namespace'
     type: class
     extends:
       - 'onenote!OfficeExtension.ClientObject:class'

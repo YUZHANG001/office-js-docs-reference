@@ -1,20 +1,18 @@
 ### YamlMime:UniversalReference
 items:
   - uid: 'outlook!Office.EmailUser:interface'
-    summary: |-
-      Represents an email account on an Exchange Server.
-
-      \[ [API set: Mailbox 1.0](/office/dev/add-ins/reference/requirement-sets/outlook-api-requirement-sets) \]
+    summary: Represents an email account on an Exchange Server.
     remarks: >-
       **[Minimum permission
       level](https://docs.microsoft.com/outlook/add-ins/understanding-outlook-add-in-permissions)<!-- -->**: ReadItem
 
 
       **[Applicable Outlook mode](https://docs.microsoft.com/outlook/add-ins/#extension-points)<!-- -->**: Read
-    name: Office.EmailUser
+    name: EmailUser
     fullName: Office.EmailUser
     langs:
       - typeScript
+    namespace: 'outlook!Office:namespace'
     type: interface
     package: outlook!
     children:

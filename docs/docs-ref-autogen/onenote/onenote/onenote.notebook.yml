@@ -5,10 +5,11 @@ items:
       Represents a OneNote notebook. Notebooks contain section groups and sections.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: OneNote.Notebook
+    name: Notebook
     fullName: OneNote.Notebook
     langs:
       - typeScript
+    namespace: 'onenote!OneNote:namespace'
     type: class
     extends:
       - 'onenote!OfficeExtension.ClientObject:class'

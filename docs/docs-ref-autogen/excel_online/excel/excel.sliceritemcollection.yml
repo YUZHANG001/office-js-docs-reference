@@ -5,10 +5,11 @@ items:
       Represents a collection of all the slicer item objects on the slicer.
 
       \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.SlicerItemCollection
+    name: SlicerItemCollection
     fullName: Excel.SlicerItemCollection
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

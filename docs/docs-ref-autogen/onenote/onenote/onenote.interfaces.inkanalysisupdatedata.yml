@@ -2,10 +2,11 @@
 items:
   - uid: 'onenote!OneNote.Interfaces.InkAnalysisUpdateData:interface'
     summary: 'An interface for updating data on the InkAnalysis object, for use in "inkAnalysis.set(<!-- -->{ ... }<!-- -->)".'
-    name: OneNote.Interfaces.InkAnalysisUpdateData
+    name: InkAnalysisUpdateData
     fullName: OneNote.Interfaces.InkAnalysisUpdateData
     langs:
       - typeScript
+    namespace: 'onenote!OneNote.Interfaces:namespace'
     type: interface
     package: onenote!
     children:

@@ -2,10 +2,11 @@
 items:
   - uid: 'word!Word.Interfaces.ParagraphData:interface'
     summary: An interface describing the data returned by calling "paragraph.toJSON()".
-    name: Word.Interfaces.ParagraphData
+    name: ParagraphData
     fullName: Word.Interfaces.ParagraphData
     langs:
       - typeScript
+    namespace: 'word!Word.Interfaces:namespace'
     type: interface
     package: word!
     children:

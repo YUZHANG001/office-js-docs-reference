@@ -2,10 +2,11 @@
 items:
   - uid: 'excel!Excel.Interfaces.ChartAxisFormatUpdateData:interface'
     summary: 'An interface for updating data on the ChartAxisFormat object, for use in `chartAxisFormat.set({ ... })`<!-- -->.'
-    name: Excel.Interfaces.ChartAxisFormatUpdateData
+    name: ChartAxisFormatUpdateData
     fullName: Excel.Interfaces.ChartAxisFormatUpdateData
     langs:
       - typeScript
+    namespace: 'excel!Excel.Interfaces:namespace'
     type: interface
     package: excel!
     children:

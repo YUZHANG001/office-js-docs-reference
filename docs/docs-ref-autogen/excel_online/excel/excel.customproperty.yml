@@ -5,10 +5,11 @@ items:
       Represents a custom property.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.CustomProperty
+    name: CustomProperty
     fullName: Excel.CustomProperty
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

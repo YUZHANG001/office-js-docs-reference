@@ -2,10 +2,11 @@
 items:
   - uid: 'word!Word.Interfaces.DocumentCreatedData:interface'
     summary: An interface describing the data returned by calling "documentCreated.toJSON()".
-    name: Word.Interfaces.DocumentCreatedData
+    name: DocumentCreatedData
     fullName: Word.Interfaces.DocumentCreatedData
     langs:
       - typeScript
+    namespace: 'word!Word.Interfaces:namespace'
     type: interface
     package: word!
     children:

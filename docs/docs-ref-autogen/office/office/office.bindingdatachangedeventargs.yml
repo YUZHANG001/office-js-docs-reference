@@ -2,10 +2,11 @@
 items:
   - uid: 'office!Office.BindingDataChangedEventArgs:interface'
     summary: Provides information about the binding that raised the DataChanged event.
-    name: Office.BindingDataChangedEventArgs
+    name: BindingDataChangedEventArgs
     fullName: Office.BindingDataChangedEventArgs
     langs:
       - typeScript
+    namespace: 'office!Office:namespace'
     type: interface
     package: office!
     children:

@@ -5,10 +5,11 @@ items:
       Represents a collection of all the PivotItems related to their parent PivotField.
 
       \[ [API set: ExcelApi 1.8](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.PivotItemCollection
+    name: PivotItemCollection
     fullName: Excel.PivotItemCollection
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

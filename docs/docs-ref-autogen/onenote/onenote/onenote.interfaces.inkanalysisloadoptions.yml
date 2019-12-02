@@ -5,10 +5,11 @@ items:
       Represents ink analysis data for a given set of ink strokes.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: OneNote.Interfaces.InkAnalysisLoadOptions
+    name: InkAnalysisLoadOptions
     fullName: OneNote.Interfaces.InkAnalysisLoadOptions
     langs:
       - typeScript
+    namespace: 'onenote!OneNote.Interfaces:namespace'
     type: interface
     package: onenote!
     children:

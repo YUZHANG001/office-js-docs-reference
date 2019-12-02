@@ -7,10 +7,11 @@ items:
 
 
       \[ [API set: ExcelApi 1.8](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.DataValidationRule
+    name: DataValidationRule
     fullName: Excel.DataValidationRule
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: interface
     package: excel!
     children:

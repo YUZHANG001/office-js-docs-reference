@@ -5,10 +5,11 @@ items:
       A collection of all the chart points within a series inside a chart.
 
       \[ [API set: ExcelApi 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.ChartPointsCollection
+    name: ChartPointsCollection
     fullName: Excel.ChartPointsCollection
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

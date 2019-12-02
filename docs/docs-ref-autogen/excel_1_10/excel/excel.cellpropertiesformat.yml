@@ -5,10 +5,11 @@ items:
       Represents the returned format properties of getCellProperties or format input parameter of setCellProperties.
 
       \[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.CellPropertiesFormat
+    name: CellPropertiesFormat
     fullName: Excel.CellPropertiesFormat
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: interface
     package: excel!
     children:

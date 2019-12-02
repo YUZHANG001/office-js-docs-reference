@@ -5,10 +5,11 @@ items:
       Represents the format protection of a range object.
 
       \[ [API set: ExcelApi 1.2](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.FormatProtection
+    name: FormatProtection
     fullName: Excel.FormatProtection
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

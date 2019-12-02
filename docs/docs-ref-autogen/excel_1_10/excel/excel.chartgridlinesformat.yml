@@ -5,10 +5,11 @@ items:
       Encapsulates the format properties for chart gridlines.
 
       \[ [API set: ExcelApi 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.ChartGridlinesFormat
+    name: ChartGridlinesFormat
     fullName: Excel.ChartGridlinesFormat
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

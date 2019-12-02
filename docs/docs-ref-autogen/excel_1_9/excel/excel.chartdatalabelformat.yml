@@ -5,10 +5,11 @@ items:
       Encapsulates the format properties for the chart data labels.
 
       \[ [API set: ExcelApi 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.ChartDataLabelFormat
+    name: ChartDataLabelFormat
     fullName: Excel.ChartDataLabelFormat
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

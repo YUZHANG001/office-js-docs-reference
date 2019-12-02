@@ -7,10 +7,11 @@ items:
 
 
       Call `setResult()` one or more times to provide the result instead of returning a result from the function.
-    name: CustomFunctions.StreamingInvocation
+    name: StreamingInvocation
     fullName: CustomFunctions.StreamingInvocation
     langs:
       - typeScript
+    namespace: 'custom-functions-runtime!CustomFunctions:namespace'
     type: interface
     extends:
       - 'custom-functions-runtime!CustomFunctions.CancelableInvocation:interface'

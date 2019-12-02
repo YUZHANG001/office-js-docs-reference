@@ -5,10 +5,11 @@ items:
       Represents a single stroke of ink.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: OneNote.InkStroke
+    name: InkStroke
     fullName: OneNote.InkStroke
     langs:
       - typeScript
+    namespace: 'onenote!OneNote:namespace'
     type: class
     extends:
       - 'onenote!OfficeExtension.ClientObject:class'

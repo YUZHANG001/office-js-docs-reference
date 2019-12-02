@@ -5,10 +5,11 @@ items:
       Represents a cell in a OneNote table.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: OneNote.TableCell
+    name: TableCell
     fullName: OneNote.TableCell
     langs:
       - typeScript
+    namespace: 'onenote!OneNote:namespace'
     type: class
     extends:
       - 'onenote!OfficeExtension.ClientObject:class'

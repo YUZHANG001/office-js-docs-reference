@@ -2,10 +2,11 @@
 items:
   - uid: 'excel!Excel.Interfaces.ChartDataLabelsUpdateData:interface'
     summary: 'An interface for updating data on the ChartDataLabels object, for use in `chartDataLabels.set({ ... })`<!-- -->.'
-    name: Excel.Interfaces.ChartDataLabelsUpdateData
+    name: ChartDataLabelsUpdateData
     fullName: Excel.Interfaces.ChartDataLabelsUpdateData
     langs:
       - typeScript
+    namespace: 'excel!Excel.Interfaces:namespace'
     type: interface
     package: excel!
     children:

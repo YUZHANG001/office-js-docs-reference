@@ -5,10 +5,11 @@ items:
       This object represents the attributes for a chart plotArea object.
 
       \[ [API set: ExcelApi 1.8](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.ChartPlotArea
+    name: ChartPlotArea
     fullName: Excel.ChartPlotArea
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

@@ -5,10 +5,11 @@ items:
       Represents a collection of all the conditional formats that are overlap the range.
 
       \[ [API set: ExcelApi 1.6](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.Interfaces.ConditionalFormatCollectionLoadOptions
+    name: ConditionalFormatCollectionLoadOptions
     fullName: Excel.Interfaces.ConditionalFormatCollectionLoadOptions
     langs:
       - typeScript
+    namespace: 'excel!Excel.Interfaces:namespace'
     type: interface
     package: excel!
     children:

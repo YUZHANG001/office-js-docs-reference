@@ -5,10 +5,11 @@ items:
       Represents the text frame of a shape object.
 
       \[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.Interfaces.TextFrameLoadOptions
+    name: TextFrameLoadOptions
     fullName: Excel.Interfaces.TextFrameLoadOptions
     langs:
       - typeScript
+    namespace: 'excel!Excel.Interfaces:namespace'
     type: interface
     package: excel!
     children:

@@ -5,10 +5,11 @@ items:
       This object represents the attributes for a chart trendline lable object.
 
       \[ [API set: ExcelApi 1.8](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.ChartTrendlineLabel
+    name: ChartTrendlineLabel
     fullName: Excel.ChartTrendlineLabel
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

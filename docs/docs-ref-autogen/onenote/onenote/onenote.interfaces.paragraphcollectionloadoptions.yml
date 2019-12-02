@@ -5,10 +5,11 @@ items:
       Represents a collection of Paragraph objects.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: OneNote.Interfaces.ParagraphCollectionLoadOptions
+    name: ParagraphCollectionLoadOptions
     fullName: OneNote.Interfaces.ParagraphCollectionLoadOptions
     langs:
       - typeScript
+    namespace: 'onenote!OneNote.Interfaces:namespace'
     type: interface
     package: onenote!
     children:

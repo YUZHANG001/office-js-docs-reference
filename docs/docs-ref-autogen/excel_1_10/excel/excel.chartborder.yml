@@ -5,10 +5,11 @@ items:
       Represents the border formatting of a chart element.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.ChartBorder
+    name: ChartBorder
     fullName: Excel.ChartBorder
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

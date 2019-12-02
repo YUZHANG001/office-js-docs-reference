@@ -2,10 +2,11 @@
 items:
   - uid: 'word!Word.Interfaces.BodyData:interface'
     summary: An interface describing the data returned by calling "body.toJSON()".
-    name: Word.Interfaces.BodyData
+    name: BodyData
     fullName: Word.Interfaces.BodyData
     langs:
       - typeScript
+    namespace: 'word!Word.Interfaces:namespace'
     type: interface
     package: word!
     children:

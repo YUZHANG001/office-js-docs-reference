@@ -2,10 +2,11 @@
 items:
   - uid: 'excel!Excel.Interfaces.ChartPointUpdateData:interface'
     summary: 'An interface for updating data on the ChartPoint object, for use in `chartPoint.set({ ... })`<!-- -->.'
-    name: Excel.Interfaces.ChartPointUpdateData
+    name: ChartPointUpdateData
     fullName: Excel.Interfaces.ChartPointUpdateData
     langs:
       - typeScript
+    namespace: 'excel!Excel.Interfaces:namespace'
     type: interface
     package: excel!
     children:

@@ -5,10 +5,11 @@ items:
       Represents the title of a chart axis.
 
       \[ [API set: ExcelApi 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Excel.ChartAxisTitle
+    name: ChartAxisTitle
     fullName: Excel.ChartAxisTitle
     langs:
       - typeScript
+    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

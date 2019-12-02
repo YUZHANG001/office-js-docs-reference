@@ -5,10 +5,11 @@ items:
       Represents a table in a OneNote page.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: OneNote.Interfaces.TableLoadOptions
+    name: TableLoadOptions
     fullName: OneNote.Interfaces.TableLoadOptions
     langs:
       - typeScript
+    namespace: 'onenote!OneNote.Interfaces:namespace'
     type: interface
     package: onenote!
     children:

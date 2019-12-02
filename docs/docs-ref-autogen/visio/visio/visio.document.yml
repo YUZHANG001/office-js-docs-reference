@@ -5,10 +5,11 @@ items:
       Represents the Document class.
 
       \[ [API set: 1.1](/office/dev/add-ins/reference/overview/visio-javascript-reference-overview) \]
-    name: Visio.Document
+    name: Document
     fullName: Visio.Document
     langs:
       - typeScript
+    namespace: 'visio!Visio:namespace'
     type: class
     extends:
       - 'visio!OfficeExtension.ClientObject:class'
