@@ -2,11 +2,10 @@
 items:
   - uid: 'excel!Excel.RangeCollection:class'
     summary: '\[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]'
-    name: RangeCollection
+    name: Excel.RangeCollection
     fullName: Excel.RangeCollection
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

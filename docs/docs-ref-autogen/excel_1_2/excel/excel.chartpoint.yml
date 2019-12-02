@@ -5,11 +5,10 @@ items:
       Represents a point of a series in a chart.
 
       \[ [API set: ExcelApi 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ChartPoint
+    name: Excel.ChartPoint
     fullName: Excel.ChartPoint
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

@@ -5,11 +5,10 @@ items:
       Represents the Selection in the page.
 
       \[ [API set: 1.1](/office/dev/add-ins/reference/overview/visio-javascript-reference-overview) \]
-    name: Selection
+    name: Visio.Selection
     fullName: Visio.Selection
     langs:
       - typeScript
-    namespace: 'visio!Visio:namespace'
     type: class
     extends:
       - 'visio!OfficeExtension.ClientObject:class'

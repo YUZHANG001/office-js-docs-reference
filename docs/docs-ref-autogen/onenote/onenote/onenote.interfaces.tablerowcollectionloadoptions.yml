@@ -5,11 +5,10 @@ items:
       Contains a collection of TableRow objects.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: TableRowCollectionLoadOptions
+    name: OneNote.Interfaces.TableRowCollectionLoadOptions
     fullName: OneNote.Interfaces.TableRowCollectionLoadOptions
     langs:
       - typeScript
-    namespace: 'onenote!OneNote.Interfaces:namespace'
     type: interface
     package: onenote!
     children:

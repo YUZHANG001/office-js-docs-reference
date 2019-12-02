@@ -5,11 +5,10 @@ items:
       Represents an Office.js binding that is defined in the workbook.
 
       \[ [API set: ExcelApi 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Binding
+    name: Excel.Binding
     fullName: Excel.Binding
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

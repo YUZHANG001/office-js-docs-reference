@@ -5,11 +5,10 @@ items:
       Represents the data label of a chart point.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ChartDataLabel
+    name: Excel.ChartDataLabel
     fullName: Excel.ChartDataLabel
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

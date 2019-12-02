@@ -5,11 +5,10 @@ items:
       Encapsulates the options for the pivot chart.
 
       \[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ChartPivotOptions
+    name: Excel.ChartPivotOptions
     fullName: Excel.ChartPivotOptions
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

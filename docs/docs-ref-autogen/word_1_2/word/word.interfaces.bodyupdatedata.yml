@@ -2,11 +2,10 @@
 items:
   - uid: 'word!Word.Interfaces.BodyUpdateData:interface'
     summary: 'An interface for updating data on the Body object, for use in "body.set(<!-- -->{ ... }<!-- -->)".'
-    name: BodyUpdateData
+    name: Word.Interfaces.BodyUpdateData
     fullName: Word.Interfaces.BodyUpdateData
     langs:
       - typeScript
-    namespace: 'word!Word.Interfaces:namespace'
     type: interface
     package: word!
     children:

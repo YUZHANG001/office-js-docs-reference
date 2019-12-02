@@ -5,11 +5,10 @@ items:
       Represents the Shape class.
 
       \[ [API set: 1.1](/office/dev/add-ins/reference/overview/visio-javascript-reference-overview) \]
-    name: Shape
+    name: Visio.Shape
     fullName: Visio.Shape
     langs:
       - typeScript
-    namespace: 'visio!Visio:namespace'
     type: class
     extends:
       - 'visio!OfficeExtension.ClientObject:class'

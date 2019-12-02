@@ -11,11 +11,10 @@ items:
 
 
       If the metadata JSON file is being generated from JSDoc comments, include the tag `@cancelable`<!-- -->.
-    name: CancelableInvocation
+    name: CustomFunctions.CancelableInvocation
     fullName: CustomFunctions.CancelableInvocation
     langs:
       - typeScript
-    namespace: 'custom-functions-runtime!CustomFunctions:namespace'
     type: interface
     extends:
       - 'custom-functions-runtime!CustomFunctions.Invocation:interface'

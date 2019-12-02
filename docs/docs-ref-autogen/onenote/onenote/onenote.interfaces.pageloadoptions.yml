@@ -5,11 +5,10 @@ items:
       Represents a OneNote page.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: PageLoadOptions
+    name: OneNote.Interfaces.PageLoadOptions
     fullName: OneNote.Interfaces.PageLoadOptions
     langs:
       - typeScript
-    namespace: 'onenote!OneNote.Interfaces:namespace'
     type: interface
     package: onenote!
     children:

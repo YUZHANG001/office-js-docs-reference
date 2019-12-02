@@ -5,11 +5,10 @@ items:
       Represents a contiguous area in a document.
 
       \[ [API set: WordApi 1.1](/office/dev/add-ins/reference/requirement-sets/word-api-requirement-sets) \]
-    name: Range
+    name: Word.Range
     fullName: Word.Range
     langs:
       - typeScript
-    namespace: 'word!Word:namespace'
     type: class
     extends:
       - 'word!OfficeExtension.ClientObject:class'

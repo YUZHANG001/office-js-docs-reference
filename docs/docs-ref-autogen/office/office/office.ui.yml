@@ -9,11 +9,10 @@ items:
       Visit "[Use the Dialog API in your Office
       Add-ins](https://docs.microsoft.com/office/dev/add-ins/develop/dialog-api-in-office-add-ins)<!-- -->" for more
       information.
-    name: UI
+    name: Office.UI
     fullName: Office.UI
     langs:
       - typeScript
-    namespace: 'office!Office:namespace'
     type: interface
     package: office!
     children:

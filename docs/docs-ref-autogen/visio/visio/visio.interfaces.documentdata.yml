@@ -2,11 +2,10 @@
 items:
   - uid: 'visio!Visio.Interfaces.DocumentData:interface'
     summary: An interface describing the data returned by calling "document.toJSON()".
-    name: DocumentData
+    name: Visio.Interfaces.DocumentData
     fullName: Visio.Interfaces.DocumentData
     langs:
       - typeScript
-    namespace: 'visio!Visio.Interfaces:namespace'
     type: interface
     package: visio!
     children:

@@ -5,11 +5,10 @@ items:
       Contains the text that is attached to a shape, in addition to properties and methods for manipulating the text.
 
       \[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: TextRange
+    name: Excel.TextRange
     fullName: Excel.TextRange
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

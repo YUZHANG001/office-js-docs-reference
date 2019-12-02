@@ -5,11 +5,10 @@ items:
       Represents a collection of all the PivotFields that are part of a PivotTable's hierarchy.
 
       \[ [API set: ExcelApi 1.8](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: PivotFieldCollection
+    name: Excel.PivotFieldCollection
     fullName: Excel.PivotFieldCollection
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

@@ -5,11 +5,10 @@ items:
       Represents a collection of Chart Trendlines.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ChartTrendlineCollection
+    name: Excel.ChartTrendlineCollection
     fullName: Excel.ChartTrendlineCollection
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

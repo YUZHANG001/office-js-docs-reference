@@ -5,11 +5,10 @@ items:
       A container for the visible content on a page. A Paragraph can contain any one ParagraphType type of content.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: Paragraph
+    name: OneNote.Paragraph
     fullName: OneNote.Paragraph
     langs:
       - typeScript
-    namespace: 'onenote!OneNote:namespace'
     type: class
     extends:
       - 'onenote!OfficeExtension.ClientObject:class'

@@ -5,11 +5,10 @@ items:
       Represents a comment in the workbook.
 
       \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Comment
+    name: Excel.Comment
     fullName: Excel.Comment
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

@@ -5,11 +5,10 @@ items:
       Provides information about the binding that raised the DataChanged event.
 
       \[ [API set: ExcelApi 1.2](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: BindingDataChangedEventArgs
+    name: Excel.BindingDataChangedEventArgs
     fullName: Excel.BindingDataChangedEventArgs
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: interface
     package: excel!
     children:

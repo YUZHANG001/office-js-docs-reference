@@ -5,11 +5,10 @@ items:
       Encapsulates the bin options for histogram charts and pareto charts.
 
       \[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ChartBinOptions
+    name: Excel.ChartBinOptions
     fullName: Excel.ChartBinOptions
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

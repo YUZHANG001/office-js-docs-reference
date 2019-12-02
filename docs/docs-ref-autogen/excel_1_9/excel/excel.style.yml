@@ -5,11 +5,10 @@ items:
       An object encapsulating a style's format and other properties.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Style
+    name: Excel.Style
     fullName: Excel.Style
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

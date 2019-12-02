@@ -2,11 +2,10 @@
 items:
   - uid: 'onenote!OneNote.Interfaces.ImageData:interface'
     summary: An interface describing the data returned by calling "image.toJSON()".
-    name: ImageData
+    name: OneNote.Interfaces.ImageData
     fullName: OneNote.Interfaces.ImageData
     langs:
       - typeScript
-    namespace: 'onenote!OneNote.Interfaces:namespace'
     type: interface
     package: onenote!
     children:

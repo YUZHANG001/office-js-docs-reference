@@ -8,11 +8,10 @@ items:
       \[ [API set: WordApi BETA (PREVIEW
       ONLY)](/office/dev/add-ins/reference/requirement-sets/word-api-requirement-sets) \]
     isPreview: true
-    name: ContentControlEventArgs
+    name: Word.ContentControlEventArgs
     fullName: Word.ContentControlEventArgs
     langs:
       - typeScript
-    namespace: 'word!Word:namespace'
     type: interface
     package: word!
     children:

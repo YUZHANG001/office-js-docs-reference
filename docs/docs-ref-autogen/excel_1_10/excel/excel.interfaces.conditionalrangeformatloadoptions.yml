@@ -5,11 +5,10 @@ items:
       A format object encapsulating the conditional formats range's font, fill, borders, and other properties.
 
       \[ [API set: ExcelApi 1.6](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ConditionalRangeFormatLoadOptions
+    name: Excel.Interfaces.ConditionalRangeFormatLoadOptions
     fullName: Excel.Interfaces.ConditionalRangeFormatLoadOptions
     langs:
       - typeScript
-    namespace: 'excel!Excel.Interfaces:namespace'
     type: interface
     package: excel!
     children:

@@ -28,11 +28,10 @@ items:
       <td>Meeting Request - Read Series</td> <td>No (setAsync not available)</td> <td>Yes (item.recurrence)</td> </tr>
       <tr> <td>Meeting Request - Read Instance</td> <td>No (setAsync not available)</td> <td>Yes (item.recurrence)</td>
       </tr> </table>
-    name: Recurrence
+    name: Office.Recurrence
     fullName: Office.Recurrence
     langs:
       - typeScript
-    namespace: 'outlook!Office:namespace'
     type: interface
     package: outlook!
     children:

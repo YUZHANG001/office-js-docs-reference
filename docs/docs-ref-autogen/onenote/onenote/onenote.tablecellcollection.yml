@@ -5,11 +5,10 @@ items:
       Contains a collection of TableCell objects.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: TableCellCollection
+    name: OneNote.TableCellCollection
     fullName: OneNote.TableCellCollection
     langs:
       - typeScript
-    namespace: 'onenote!OneNote:namespace'
     type: class
     extends:
       - 'onenote!OfficeExtension.ClientObject:class'

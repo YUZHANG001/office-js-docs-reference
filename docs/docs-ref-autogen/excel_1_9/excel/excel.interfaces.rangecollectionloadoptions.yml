@@ -2,11 +2,10 @@
 items:
   - uid: 'excel!Excel.Interfaces.RangeCollectionLoadOptions:interface'
     summary: '\[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]'
-    name: RangeCollectionLoadOptions
+    name: Excel.Interfaces.RangeCollectionLoadOptions
     fullName: Excel.Interfaces.RangeCollectionLoadOptions
     langs:
       - typeScript
-    namespace: 'excel!Excel.Interfaces:namespace'
     type: interface
     package: excel!
     children:

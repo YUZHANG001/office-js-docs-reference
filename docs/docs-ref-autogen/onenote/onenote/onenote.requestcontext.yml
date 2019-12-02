@@ -1,11 +1,10 @@
 ### YamlMime:UniversalReference
 items:
   - uid: 'onenote!OneNote.RequestContext:class'
-    name: RequestContext
+    name: OneNote.RequestContext
     fullName: OneNote.RequestContext
     langs:
       - typeScript
-    namespace: 'onenote!OneNote:namespace'
     type: class
     extends:
       - 'onenote!OfficeExtension.ClientRequestContext:class'

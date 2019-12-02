@@ -5,11 +5,10 @@ items:
       Encapsulates the format properties for chart error bars.
 
       \[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ChartErrorBarsFormat
+    name: Excel.ChartErrorBarsFormat
     fullName: Excel.ChartErrorBarsFormat
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

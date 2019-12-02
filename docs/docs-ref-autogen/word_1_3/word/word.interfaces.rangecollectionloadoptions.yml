@@ -5,11 +5,10 @@ items:
       Contains a collection of [Word.Range](xref:word!Word.Range:class) objects.
 
       \[ [API set: WordApi 1.1](/office/dev/add-ins/reference/requirement-sets/word-api-requirement-sets) \]
-    name: RangeCollectionLoadOptions
+    name: Word.Interfaces.RangeCollectionLoadOptions
     fullName: Word.Interfaces.RangeCollectionLoadOptions
     langs:
       - typeScript
-    namespace: 'word!Word.Interfaces:namespace'
     type: interface
     package: word!
     children:

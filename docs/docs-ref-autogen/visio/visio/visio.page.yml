@@ -5,11 +5,10 @@ items:
       Represents the Page class.
 
       \[ [API set: 1.1](/office/dev/add-ins/reference/overview/visio-javascript-reference-overview) \]
-    name: Page
+    name: Visio.Page
     fullName: Visio.Page
     langs:
       - typeScript
-    namespace: 'visio!Visio:namespace'
     type: class
     extends:
       - 'visio!OfficeExtension.ClientObject:class'

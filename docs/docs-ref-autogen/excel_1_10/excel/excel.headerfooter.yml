@@ -2,11 +2,10 @@
 items:
   - uid: 'excel!Excel.HeaderFooter:class'
     summary: '\[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]'
-    name: HeaderFooter
+    name: Excel.HeaderFooter
     fullName: Excel.HeaderFooter
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

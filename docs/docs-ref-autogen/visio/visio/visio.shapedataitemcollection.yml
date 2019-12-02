@@ -5,11 +5,10 @@ items:
       Represents the ShapeDataItemCollection for a given Shape.
 
       \[ [API set: 1.1](/office/dev/add-ins/reference/overview/visio-javascript-reference-overview) \]
-    name: ShapeDataItemCollection
+    name: Visio.ShapeDataItemCollection
     fullName: Visio.ShapeDataItemCollection
     langs:
       - typeScript
-    namespace: 'visio!Visio:namespace'
     type: class
     extends:
       - 'visio!OfficeExtension.ClientObject:class'

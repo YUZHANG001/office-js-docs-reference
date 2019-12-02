@@ -5,11 +5,10 @@ items:
       Represents the Excel Runtime class.
 
       \[ [API set: ExcelApi 1.5](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: Runtime
+    name: Excel.Runtime
     fullName: Excel.Runtime
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

@@ -5,11 +5,10 @@ items:
       Represents a OneNote section group. Section groups can contain sections and other section groups.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: SectionGroup
+    name: OneNote.SectionGroup
     fullName: OneNote.SectionGroup
     langs:
       - typeScript
-    namespace: 'onenote!OneNote:namespace'
     type: class
     extends:
       - 'onenote!OfficeExtension.ClientObject:class'

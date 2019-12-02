@@ -5,11 +5,10 @@ items:
       Represents the legend in a chart.
 
       \[ [API set: ExcelApi 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ChartLegendLoadOptions
+    name: Excel.Interfaces.ChartLegendLoadOptions
     fullName: Excel.Interfaces.ChartLegendLoadOptions
     langs:
       - typeScript
-    namespace: 'excel!Excel.Interfaces:namespace'
     type: interface
     package: excel!
     children:

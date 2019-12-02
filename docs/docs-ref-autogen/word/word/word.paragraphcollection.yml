@@ -5,11 +5,10 @@ items:
       Contains a collection of [Word.Paragraph](xref:word!Word.Paragraph:class) objects.
 
       \[ [API set: WordApi 1.1](/office/dev/add-ins/reference/requirement-sets/word-api-requirement-sets) \]
-    name: ParagraphCollection
+    name: Word.ParagraphCollection
     fullName: Word.ParagraphCollection
     langs:
       - typeScript
-    namespace: 'word!Word:namespace'
     type: class
     extends:
       - 'word!OfficeExtension.ClientObject:class'

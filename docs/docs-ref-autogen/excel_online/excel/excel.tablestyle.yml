@@ -5,11 +5,10 @@ items:
       Represents a TableStyle, which defines the style elements by region of the Table.
 
       \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: TableStyle
+    name: Excel.TableStyle
     fullName: Excel.TableStyle
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

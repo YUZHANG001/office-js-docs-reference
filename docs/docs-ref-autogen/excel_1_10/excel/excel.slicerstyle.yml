@@ -5,11 +5,10 @@ items:
       Represents a Slicer Style, which defines style elements by region of the slicer.
 
       \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: SlicerStyle
+    name: Excel.SlicerStyle
     fullName: Excel.SlicerStyle
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

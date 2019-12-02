@@ -9,11 +9,10 @@ items:
 
 
       \[ [API set: WordApi 1.1](/office/dev/add-ins/reference/requirement-sets/word-api-requirement-sets) \]
-    name: ContentControlCollectionLoadOptions
+    name: Word.Interfaces.ContentControlCollectionLoadOptions
     fullName: Word.Interfaces.ContentControlCollectionLoadOptions
     langs:
       - typeScript
-    namespace: 'word!Word.Interfaces:namespace'
     type: interface
     package: word!
     children:

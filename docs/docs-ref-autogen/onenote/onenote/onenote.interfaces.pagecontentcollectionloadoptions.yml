@@ -5,11 +5,10 @@ items:
       Represents the contents of a page, as a collection of PageContent objects.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: PageContentCollectionLoadOptions
+    name: OneNote.Interfaces.PageContentCollectionLoadOptions
     fullName: OneNote.Interfaces.PageContentCollectionLoadOptions
     langs:
       - typeScript
-    namespace: 'onenote!OneNote.Interfaces:namespace'
     type: interface
     package: onenote!
     children:

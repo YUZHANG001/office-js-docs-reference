@@ -5,11 +5,10 @@ items:
       Represents the Hyperlink Collection.
 
       \[ [API set: 1.1](/office/dev/add-ins/reference/overview/visio-javascript-reference-overview) \]
-    name: HyperlinkCollection
+    name: Visio.HyperlinkCollection
     fullName: Visio.HyperlinkCollection
     langs:
       - typeScript
-    namespace: 'visio!Visio:namespace'
     type: class
     extends:
       - 'visio!OfficeExtension.ClientObject:class'

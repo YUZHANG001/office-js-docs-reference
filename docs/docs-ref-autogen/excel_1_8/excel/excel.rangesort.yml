@@ -5,11 +5,10 @@ items:
       Manages sorting operations on Range objects.
 
       \[ [API set: ExcelApi 1.2](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: RangeSort
+    name: Excel.RangeSort
     fullName: Excel.RangeSort
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

@@ -2,11 +2,10 @@
 items:
   - uid: 'excel!Excel.Interfaces.RangeFormatData:interface'
     summary: An interface describing the data returned by calling `rangeFormat.toJSON()`<!-- -->.
-    name: RangeFormatData
+    name: Excel.Interfaces.RangeFormatData
     fullName: Excel.Interfaces.RangeFormatData
     langs:
       - typeScript
-    namespace: 'excel!Excel.Interfaces:namespace'
     type: interface
     package: excel!
     children:

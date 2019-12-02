@@ -5,11 +5,10 @@ items:
       Represents a collection of TimelineStyles.
 
       \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: TimelineStyleCollection
+    name: Excel.TimelineStyleCollection
     fullName: Excel.TimelineStyleCollection
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

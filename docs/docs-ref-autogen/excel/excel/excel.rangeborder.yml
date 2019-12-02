@@ -5,11 +5,10 @@ items:
       Represents the border of an object.
 
       \[ [API set: ExcelApi 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: RangeBorder
+    name: Excel.RangeBorder
     fullName: Excel.RangeBorder
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

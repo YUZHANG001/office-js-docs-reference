@@ -5,11 +5,10 @@ items:
       Represents a collection of InkAnalysisParagraph objects.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: InkAnalysisParagraphCollection
+    name: OneNote.InkAnalysisParagraphCollection
     fullName: OneNote.InkAnalysisParagraphCollection
     langs:
       - typeScript
-    namespace: 'onenote!OneNote:namespace'
     type: class
     extends:
       - 'onenote!OfficeExtension.ClientObject:class'

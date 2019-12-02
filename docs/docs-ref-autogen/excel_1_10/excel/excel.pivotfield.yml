@@ -5,11 +5,10 @@ items:
       Represents the Excel PivotField.
 
       \[ [API set: ExcelApi 1.8](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: PivotField
+    name: Excel.PivotField
     fullName: Excel.PivotField
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

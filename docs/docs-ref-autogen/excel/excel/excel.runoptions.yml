@@ -1,11 +1,10 @@
 ### YamlMime:UniversalReference
 items:
   - uid: 'excel!Excel.RunOptions:interface'
-    name: RunOptions
+    name: Excel.RunOptions
     fullName: Excel.RunOptions
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: interface
     extends:
       - 'excel!Excel.RunOptions~0:complex'

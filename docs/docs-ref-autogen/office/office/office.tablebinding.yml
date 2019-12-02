@@ -9,11 +9,10 @@ items:
 
       For Excel, note that after you establish a table binding, each new row a user adds to the table is automatically
       included in the binding and rowCount increases.
-    name: TableBinding
+    name: Office.TableBinding
     fullName: Office.TableBinding
     langs:
       - typeScript
-    namespace: 'office!Office:namespace'
     type: interface
     extends:
       - 'office!Office.Binding:interface'

@@ -2,11 +2,10 @@
 items:
   - uid: 'excel!Excel.IconCollections:interface'
     summary: '\[ [API set: ExcelApi 1.2](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]'
-    name: IconCollections
+    name: Excel.IconCollections
     fullName: Excel.IconCollections
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: interface
     package: excel!
     children:

@@ -5,11 +5,10 @@ items:
       Represents a series in a chart.
 
       \[ [API set: ExcelApi 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ChartSeries
+    name: Excel.ChartSeries
     fullName: Excel.ChartSeries
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

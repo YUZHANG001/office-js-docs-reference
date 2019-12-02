@@ -5,11 +5,10 @@ items:
       Contains a collection of [Word.List](xref:word!Word.List:class) objects.
 
       \[ [API set: WordApi 1.3](/office/dev/add-ins/reference/requirement-sets/word-api-requirement-sets) \]
-    name: ListCollection
+    name: Word.ListCollection
     fullName: Word.ListCollection
     langs:
       - typeScript
-    namespace: 'word!Word:namespace'
     type: class
     extends:
       - 'word!OfficeExtension.ClientObject:class'

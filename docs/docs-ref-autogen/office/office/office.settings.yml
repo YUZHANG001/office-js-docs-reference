@@ -21,11 +21,10 @@ items:
 
       The developer is responsible for calling the saveAsync method after adding or deleting settings to save the
       settings in the document.
-    name: Settings
+    name: Office.Settings
     fullName: Office.Settings
     langs:
       - typeScript
-    namespace: 'office!Office:namespace'
     type: interface
     package: office!
     children:

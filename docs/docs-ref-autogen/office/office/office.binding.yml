@@ -33,11 +33,10 @@ items:
 
       -
       [TextBindings](https://docs.microsoft.com/office/dev/add-ins/reference/requirement-sets/office-add-in-requirement-sets#textbindings)
-    name: Binding
+    name: Office.Binding
     fullName: Office.Binding
     langs:
       - typeScript
-    namespace: 'office!Office:namespace'
     type: interface
     package: office!
     children:

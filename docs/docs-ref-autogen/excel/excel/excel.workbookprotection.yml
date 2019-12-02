@@ -5,11 +5,10 @@ items:
       Represents the protection of a workbook object.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: WorkbookProtection
+    name: Excel.WorkbookProtection
     fullName: Excel.WorkbookProtection
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

@@ -5,11 +5,10 @@ items:
       Represents the runtime environment of the add-in and provides access to key objects of the API. The current
       context exists as a property of Office. It is accessed using `Office.context`<!-- -->.
     remarks: '**Hosts**: Excel, Outlook, PowerPoint, Project, Word'
-    name: Context
+    name: Office.Context
     fullName: Office.Context
     langs:
       - typeScript
-    namespace: 'office!Office:namespace'
     type: interface
     package: office!
     children:

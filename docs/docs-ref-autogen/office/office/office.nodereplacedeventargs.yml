@@ -2,11 +2,10 @@
 items:
   - uid: 'office!Office.NodeReplacedEventArgs:interface'
     summary: Provides information about the replaced node that raised the nodeReplaced event.
-    name: NodeReplacedEventArgs
+    name: Office.NodeReplacedEventArgs
     fullName: Office.NodeReplacedEventArgs
     langs:
       - typeScript
-    namespace: 'office!Office:namespace'
     type: interface
     package: office!
     children:

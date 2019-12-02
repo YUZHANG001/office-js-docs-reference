@@ -5,11 +5,10 @@ items:
       This object represents the attributes for a chart's error bars.
 
       \[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ChartErrorBars
+    name: Excel.ChartErrorBars
     fullName: Excel.ChartErrorBars
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

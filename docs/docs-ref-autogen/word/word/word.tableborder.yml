@@ -5,11 +5,10 @@ items:
       Specifies the border style.
 
       \[ [API set: WordApi 1.3](/office/dev/add-ins/reference/requirement-sets/word-api-requirement-sets) \]
-    name: TableBorder
+    name: Word.TableBorder
     fullName: Word.TableBorder
     langs:
       - typeScript
-    namespace: 'word!Word:namespace'
     type: class
     extends:
       - 'word!OfficeExtension.ClientObject:class'

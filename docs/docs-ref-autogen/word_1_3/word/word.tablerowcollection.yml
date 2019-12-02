@@ -5,11 +5,10 @@ items:
       Contains the collection of the document's TableRow objects.
 
       \[ [API set: WordApi 1.3](/office/dev/add-ins/reference/requirement-sets/word-api-requirement-sets) \]
-    name: TableRowCollection
+    name: Word.TableRowCollection
     fullName: Word.TableRowCollection
     langs:
       - typeScript
-    namespace: 'word!Word:namespace'
     type: class
     extends:
       - 'word!OfficeExtension.ClientObject:class'

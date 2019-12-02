@@ -9,11 +9,10 @@ items:
       treat this as a mode of Office.context.mailbox.item. Refer to the [Object
       Model](https://docs.microsoft.com/office/dev/add-ins/reference/objectmodel/preview-requirement-set/office.context.mailbox.item)
       page for more information.
-    name: Message
+    name: Office.Message
     fullName: Office.Message
     langs:
       - typeScript
-    namespace: 'outlook!Office:namespace'
     type: interface
     extends:
       - 'outlook!Office.Item:interface'

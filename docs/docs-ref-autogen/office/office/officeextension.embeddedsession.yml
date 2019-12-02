@@ -1,11 +1,10 @@
 ### YamlMime:UniversalReference
 items:
   - uid: 'office!OfficeExtension.EmbeddedSession:class'
-    name: EmbeddedSession
+    name: OfficeExtension.EmbeddedSession
     fullName: OfficeExtension.EmbeddedSession
     langs:
       - typeScript
-    namespace: 'office!OfficeExtension:namespace'
     type: class
     package: office!
     children:

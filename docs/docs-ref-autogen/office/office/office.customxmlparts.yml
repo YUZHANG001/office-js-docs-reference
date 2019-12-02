@@ -3,11 +3,10 @@ items:
   - uid: 'office!Office.CustomXmlParts:interface'
     summary: Represents a collection of CustomXmlPart objects.
     remarks: '**Hosts**: Word'
-    name: CustomXmlParts
+    name: Office.CustomXmlParts
     fullName: Office.CustomXmlParts
     langs:
       - typeScript
-    namespace: 'office!Office:namespace'
     type: interface
     package: office!
     children:

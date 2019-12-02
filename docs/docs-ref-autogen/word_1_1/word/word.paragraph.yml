@@ -5,11 +5,10 @@ items:
       Represents a single paragraph in a selection, range, content control, or document body.
 
       \[ [API set: WordApi 1.1](/office/dev/add-ins/reference/requirement-sets/word-api-requirement-sets) \]
-    name: Paragraph
+    name: Word.Paragraph
     fullName: Word.Paragraph
     langs:
       - typeScript
-    namespace: 'word!Word:namespace'
     type: class
     extends:
       - 'word!OfficeExtension.ClientObject:class'

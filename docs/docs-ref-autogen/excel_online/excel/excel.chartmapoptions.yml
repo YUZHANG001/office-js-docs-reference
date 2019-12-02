@@ -5,11 +5,10 @@ items:
       Encapsulates the properties for a region map chart.
 
       \[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: ChartMapOptions
+    name: Excel.ChartMapOptions
     fullName: Excel.ChartMapOptions
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

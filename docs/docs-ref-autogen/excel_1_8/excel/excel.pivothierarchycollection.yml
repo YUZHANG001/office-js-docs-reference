@@ -5,11 +5,10 @@ items:
       Represents a collection of all the PivotHierarchies that are part of the PivotTable.
 
       \[ [API set: ExcelApi 1.8](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: PivotHierarchyCollection
+    name: Excel.PivotHierarchyCollection
     fullName: Excel.PivotHierarchyCollection
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

@@ -5,11 +5,10 @@ items:
       Represents which properties to load on the format object.
 
       \[ [API set: ExcelApi 1.9](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: CellPropertiesFormatLoadOptions
+    name: Excel.CellPropertiesFormatLoadOptions
     fullName: Excel.CellPropertiesFormatLoadOptions
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: interface
     package: excel!
     children:

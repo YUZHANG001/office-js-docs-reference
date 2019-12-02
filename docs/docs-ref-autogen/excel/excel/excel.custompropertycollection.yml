@@ -5,11 +5,10 @@ items:
       Contains the collection of customProperty objects.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: CustomPropertyCollection
+    name: Excel.CustomPropertyCollection
     fullName: Excel.CustomPropertyCollection
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

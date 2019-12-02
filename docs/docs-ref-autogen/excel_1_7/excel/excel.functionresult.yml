@@ -5,11 +5,10 @@ items:
       An object containing the result of a function-evaluation operation
 
       \[ [API set: ExcelApi 1.2](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: FunctionResult
+    name: Excel.FunctionResult
     fullName: Excel.FunctionResult
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'

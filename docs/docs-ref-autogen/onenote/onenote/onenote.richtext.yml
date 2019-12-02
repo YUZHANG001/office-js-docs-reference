@@ -5,11 +5,10 @@ items:
       Represents a RichText object in a Paragraph.
 
       \[ [API set: OneNoteApi 1.1](/office/dev/add-ins/reference/requirement-sets/onenote-api-requirement-sets) \]
-    name: RichText
+    name: OneNote.RichText
     fullName: OneNote.RichText
     langs:
       - typeScript
-    namespace: 'onenote!OneNote:namespace'
     type: class
     extends:
       - 'onenote!OfficeExtension.ClientObject:class'

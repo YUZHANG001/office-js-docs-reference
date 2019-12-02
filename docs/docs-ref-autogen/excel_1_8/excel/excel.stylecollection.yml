@@ -5,11 +5,10 @@ items:
       Represents a collection of all the styles.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: StyleCollection
+    name: Excel.StyleCollection
     fullName: Excel.StyleCollection
     langs:
       - typeScript
-    namespace: 'excel!Excel:namespace'
     type: class
     extends:
       - 'excel!OfficeExtension.ClientObject:class'
