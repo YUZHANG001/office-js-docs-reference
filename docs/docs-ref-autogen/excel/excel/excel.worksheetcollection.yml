@@ -93,7 +93,7 @@ items:
       Inserts the specified worksheets of a workbook into the current workbook.
 
 
-      **Note**: This API is currently only supported for Office on Windows and Mac.
+      *Note**: This API is currently only supported for Office on Windows and Mac.
 
 
       \[ [API set: ExcelApi BETA (PREVIEW
@@ -167,7 +167,7 @@ items:
       Inserts the specified worksheets of a workbook into the current workbook.
 
 
-      **Note**: This API is currently only supported for Office on Windows and Mac.
+      *Note**: This API is currently only supported for Office on Windows and Mac.
 
 
       \[ [API set: ExcelApi BETA (PREVIEW

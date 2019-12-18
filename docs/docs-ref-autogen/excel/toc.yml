@@ -1581,6 +1581,20 @@ items:
             uid: 'excel!Excel.Interfaces.WorksheetCollectionLoadOptions:interface'
           - name: WorksheetCollectionUpdateData
             uid: 'excel!Excel.Interfaces.WorksheetCollectionUpdateData:interface'
+          - name: WorksheetCustomPropertyCollectionData
+            uid: >-
+              excel!Excel.Interfaces.WorksheetCustomPropertyCollectionData:interface
+          - name: WorksheetCustomPropertyCollectionLoadOptions
+            uid: >-
+              excel!Excel.Interfaces.WorksheetCustomPropertyCollectionLoadOptions:interface
+          - name: WorksheetCustomPropertyCollectionUpdateData
+            uid: >-
+              excel!Excel.Interfaces.WorksheetCustomPropertyCollectionUpdateData:interface
+          - name: WorksheetCustomPropertyData
+            uid: 'excel!Excel.Interfaces.WorksheetCustomPropertyData:interface'
+          - name: WorksheetCustomPropertyLoadOptions
+            uid: >-
+              excel!Excel.Interfaces.WorksheetCustomPropertyLoadOptions:interface
           - name: WorksheetData
             uid: 'excel!Excel.Interfaces.WorksheetData:interface'
           - name: WorksheetLoadOptions
@@ -1803,6 +1817,10 @@ items:
             uid: 'excel!Excel.WorksheetCollection:class'
           - name: WorksheetColumnSortedEventArgs
             uid: 'excel!Excel.WorksheetColumnSortedEventArgs:interface'
+          - name: WorksheetCustomProperty
+            uid: 'excel!Excel.WorksheetCustomProperty:class'
+          - name: WorksheetCustomPropertyCollection
+            uid: 'excel!Excel.WorksheetCustomPropertyCollection:class'
           - name: WorksheetDeactivatedEventArgs
             uid: 'excel!Excel.WorksheetDeactivatedEventArgs:interface'
           - name: WorksheetDeletedEventArgs
