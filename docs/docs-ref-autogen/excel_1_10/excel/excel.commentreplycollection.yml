@@ -30,13 +30,13 @@ items:
       Creates a comment reply for comment.
 
       \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: 'add(content, contentType)'
-    fullName: 'add(content, contentType)'
+    name: add(content)
+    fullName: add(content)
     langs:
       - typeScript
     type: method
     syntax:
-      content: 'add(content: CommentRichContent | string, contentType?: Excel.ContentType): Excel.CommentReply;'
+      content: 'add(content: string): Excel.CommentReply;'
       return:
         type:
           - 'excel!Excel.CommentReply:class'
@@ -56,48 +56,30 @@ items:
           ```
       parameters:
         - id: content
-          description: >-
-            The comment's content. This can be either a string or Interface CommentRichContent (e.g. for comments with
-            mentions). \[Api set: ExcelApi 1.10 for string, ExcelApiOnline 1.1 for CommentRichContent object\]
+          description: The comment's plain text content.
           type:
-            - 'excel!Excel.CommentReplyCollection#add~0:complex'
-        - id: contentType
-          description: >-
-            Optional. The type of content contained within the comment. The default value is enum
-            `ContentType.Plain`<!-- -->. \[Api set: ExcelApi 1.10 for Enum ContentType.Plain, ExcelApiOnline 1.1 for
-            Enum ContentType.Mention\]
-          type:
-            - 'excel!Excel.ContentType:enum'
+            - string
   - uid: 'excel!Excel.CommentReplyCollection#add:member(2)'
     summary: |-
       Creates a comment reply for comment.
 
       \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: 'add(content, contentTypeString)'
-    fullName: 'add(content, contentTypeString)'
+    name: add(content)
+    fullName: add(content)
     langs:
       - typeScript
     type: method
     syntax:
-      content: 'add(content: CommentRichContent | string, contentTypeString?: "Plain" | "Mention"): Excel.CommentReply;'
+      content: 'add(content: string): Excel.CommentReply;'
       return:
         type:
           - 'excel!Excel.CommentReply:class'
         description: ''
       parameters:
         - id: content
-          description: >-
-            The comment's content. This can be either a string or Interface CommentRichContent (e.g. for comments with
-            mentions). \[Api set: ExcelApi 1.10 for string, ExcelApiOnline 1.1 for CommentRichContent object\]
+          description: The comment's plain text content.
           type:
-            - 'excel!Excel.CommentReplyCollection#add~1:complex'
-        - id: contentTypeString
-          description: >-
-            Optional. The type of content contained within the comment. The default value is enum
-            `ContentType.Plain`<!-- -->. \[Api set: ExcelApi 1.10 for Enum ContentType.Plain, ExcelApiOnline 1.1 for
-            Enum ContentType.Mention\]
-          type:
-            - '"Plain" | "Mention"'
+            - string
   - uid: 'excel!Excel.CommentReplyCollection#context:member'
     summary: >-
       The request context associated with the object. This connects the add-in's process to the Office host
@@ -269,26 +251,6 @@ references:
     name: OfficeExtension.ClientObject
   - uid: 'excel!Excel.CommentReply:class'
     name: Excel.CommentReply
-  - uid: 'excel!Excel.CommentReplyCollection#add~0:complex'
-    name: CommentRichContent | string
-    fullName: Excel.CommentRichContent | string
-    spec.typeScript:
-      - uid: 'excel!Excel.CommentRichContent:interface'
-        name: CommentRichContent
-        fullName: Excel.CommentRichContent
-      - name: ' | string'
-        fullName: ' | string'
-  - uid: 'excel!Excel.ContentType:enum'
-    name: Excel.ContentType
-  - uid: 'excel!Excel.CommentReplyCollection#add~1:complex'
-    name: CommentRichContent | string
-    fullName: Excel.CommentRichContent | string
-    spec.typeScript:
-      - uid: 'excel!Excel.CommentRichContent:interface'
-        name: CommentRichContent
-        fullName: Excel.CommentRichContent
-      - name: ' | string'
-        fullName: ' | string'
   - uid: 'excel!Excel.RequestContext:class'
     name: RequestContext
   - uid: 'excel!Excel.CommentReplyCollection#getCount~0:complex'

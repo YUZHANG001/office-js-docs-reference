@@ -16,6 +16,8 @@ items:
     children:
       - 'excel!Excel.CommentReplyCollection#add:member(1)'
       - 'excel!Excel.CommentReplyCollection#add:member(2)'
+      - 'excel!Excel.CommentReplyCollection#add:member(3)'
+      - 'excel!Excel.CommentReplyCollection#add:member(4)'
       - 'excel!Excel.CommentReplyCollection#context:member'
       - 'excel!Excel.CommentReplyCollection#getCount:member(1)'
       - 'excel!Excel.CommentReplyCollection#getItem:member(1)'
@@ -29,7 +31,7 @@ items:
     summary: |-
       Creates a comment reply for comment.
 
-      \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
+      \[ [API set: ExcelApiOnline 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
     name: 'add(content, contentType)'
     fullName: 'add(content, contentType)'
     langs:
@@ -72,7 +74,7 @@ items:
     summary: |-
       Creates a comment reply for comment.
 
-      \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
+      \[ [API set: ExcelApiOnline 1.1](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
     name: 'add(content, contentTypeString)'
     fullName: 'add(content, contentTypeString)'
     langs:
@@ -98,6 +100,48 @@ items:
             Enum ContentType.Mention\]
           type:
             - '"Plain" | "Mention"'
+  - uid: 'excel!Excel.CommentReplyCollection#add:member(3)'
+    summary: |-
+      Creates a comment reply for comment.
+
+      \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
+    name: add(content)
+    fullName: add(content)
+    langs:
+      - typeScript
+    type: method
+    syntax:
+      content: 'add(content: string): Excel.CommentReply;'
+      return:
+        type:
+          - 'excel!Excel.CommentReply:class'
+        description: ''
+      parameters:
+        - id: content
+          description: The comment's plain text content.
+          type:
+            - string
+  - uid: 'excel!Excel.CommentReplyCollection#add:member(4)'
+    summary: |-
+      Creates a comment reply for comment.
+
+      \[ [API set: ExcelApi 1.10](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
+    name: add(content)
+    fullName: add(content)
+    langs:
+      - typeScript
+    type: method
+    syntax:
+      content: 'add(content: string): Excel.CommentReply;'
+      return:
+        type:
+          - 'excel!Excel.CommentReply:class'
+        description: ''
+      parameters:
+        - id: content
+          description: The comment's plain text content.
+          type:
+            - string
   - uid: 'excel!Excel.CommentReplyCollection#context:member'
     summary: >-
       The request context associated with the object. This connects the add-in's process to the Office host
