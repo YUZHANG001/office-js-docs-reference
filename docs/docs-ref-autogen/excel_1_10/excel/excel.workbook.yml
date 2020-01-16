@@ -2,7 +2,7 @@
 items:
   - uid: 'excel!Excel.Workbook:class'
     summary: >-
-      KBTEST Workbook is the top level object which contains related workbook objects such as worksheets, tables, ranges, etc.
+      KBTEST. Workbook is the top level object which contains related workbook objects such as worksheets, tables, ranges, etc.
       To learn more about the workbook object model, read [Work with workbooks using the Excel JavaScript
       API](https://docs.microsoft.com/office/dev/add-ins/excel/excel-add-ins-workbooks)<!-- -->.
 
@@ -46,7 +46,7 @@ items:
       - 'excel!Excel.Workbook#pivotTables:member'
       - 'excel!Excel.Workbook#pivotTableStyles:member'
       - 'excel!Excel.Workbook#previouslySaved:member'
-      - 'excel!Excel.Workbook#propertiesProperty:member'
+      - 'excel!Excel.Workbook#properties:member'
       - 'excel!Excel.Workbook#protection:member'
       - 'excel!Excel.Workbook#readOnly:member'
       - 'excel!Excel.Workbook#set:member(1)'
@@ -589,12 +589,12 @@ items:
       return:
         type:
           - boolean
-  - uid: 'excel!Excel.Workbook#propertiesProperty:member'
+  - uid: 'excel!Excel.Workbook#properties:member'
     summary: |-
       Gets the workbook properties. Read-only.
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
-    name: properties
+    name: .properties
     fullName: properties
     langs:
       - typeScript
@@ -637,7 +637,7 @@ items:
           ```
   - uid: 'excel!Excel.Workbook#protection:member'
     summary: |-
-      Returns workbook protection object for a workbook. Read-only.
+      Returns workbook protection object for a workbook. Read-only.[&nbsp;](#.properties)
 
       \[ [API set: ExcelApi 1.7](/office/dev/add-ins/reference/requirement-sets/excel-api-requirement-sets) \]
     name: protection
