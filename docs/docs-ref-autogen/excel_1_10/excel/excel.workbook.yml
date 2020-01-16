@@ -46,7 +46,7 @@ items:
       - 'excel!Excel.Workbook#pivotTables:member'
       - 'excel!Excel.Workbook#pivotTableStyles:member'
       - 'excel!Excel.Workbook#previouslySaved:member'
-      - 'excel!Excel.Workbook#properties:member'
+      - 'excel!Excel.Workbook#.properties:member'
       - 'excel!Excel.Workbook#protection:member'
       - 'excel!Excel.Workbook#readOnly:member'
       - 'excel!Excel.Workbook#set:member(1)'
@@ -589,7 +589,7 @@ items:
       return:
         type:
           - boolean
-  - uid: 'excel!Excel.Workbook#properties:member'
+  - uid: 'excel!Excel.Workbook#.properties:member'
     summary: |-
       Gets the workbook properties. Read-only.
 
